@@ -4,3 +4,52 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+.logo{
+  width:50%;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+  display:inline-block;
+}
+.1image{
+  width:100%;
+}
+img{
+  width: 100%;
+}
+.heading{
+  width:100%;
+  overflow:hidden;
+  padding: 0;
+  margin:0;
+}
+
+nav{
+  font-weight: normal;
+  color: white;
+  background-color:#a32222;
+  text-align:center;
+  padding: 1em;
+}
+nav ol{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+nav li{
+  display: inline-block;
+}
+nav a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 6em;
+  font-size: 16px;
+}
+h2{
+  text-align: center;
+  color: #a32222;
+}
+h3{
+  color: #a32222;
+}
