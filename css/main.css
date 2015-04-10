@@ -4,11 +4,7 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
-html{
-  overflow:hidden;
-  margin:0;
-  padding:0;
-}
+
 .logo{
   width:50%;
   overflow: hidden;
@@ -67,7 +63,7 @@ h2{
   background-image: linear-gradient(to bottom, transparent,#a32222 );
   padding:1em;
   width:100%;
-  color: lightgrey;
+  color: white;
   display: inline-block;
   overflow:hidden;
 }
@@ -94,8 +90,8 @@ h3{
 }
 .aboutd{
   background-color: lightgrey;
-  padding:1em;
   overflow:hidden;
+  padding:.5em;
 }
 .top{
   background-color: lightgrey;
@@ -104,4 +100,15 @@ h3{
   overflow:hidden;
   margin:0 auto;
   position:relative;
+}
+p{
+  padding:.5em;
+  margin: 0;
+}
+footer{
+  background-color: lightgrey;
+}
+.btt{
+  text-align: center;
+  text-decoration: underline;
 }
