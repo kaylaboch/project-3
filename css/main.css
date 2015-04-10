@@ -62,6 +62,17 @@ h3{
   width:50%;
   float:right;
 }
-p{
-  text-align:center;
+.lunch{
+  width:50%;
+  float:left;
+}
+.lunc2h{
+  width:50%;
+  float:right;
+
+}
+.aboutd{
+  background-color: lightgrey;
+  padding:1em;
+  overflow:hidden;
 }
