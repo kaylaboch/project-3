@@ -4,6 +4,11 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+html{
+  overflow:hidden;
+  margin:0;
+  padding:0;
+}
 .logo{
   width:50%;
   overflow: hidden;
@@ -11,17 +16,23 @@ html{
   margin:0;
   display:inline-block;
 }
-.1image{
+.iimage{
   width:100%;
+  position: relative;
+  display:block;
 }
 img{
   width: 100%;
+  display:block;
+  overflow:hidden;
 }
 .heading{
   width:100%;
   overflow:hidden;
   padding: 0;
   margin:0;
+  display:block;
+
 }
 
 nav{
@@ -50,6 +61,16 @@ h2{
   text-align: center;
   color: #a32222;
 }
+.heart{
+  position:absolute;
+  bottom: -10%;
+  background-image: linear-gradient(to bottom, transparent,#a32222 );
+  padding:1em;
+  width:100%;
+  color: lightgrey;
+  display: inline-block;
+  overflow:hidden;
+}
 h3{
   color: #a32222;
 }
@@ -75,4 +96,12 @@ h3{
   background-color: lightgrey;
   padding:1em;
   overflow:hidden;
+}
+.top{
+  background-color: lightgrey;
+  padding: 0;
+  display:block;
+  overflow:hidden;
+  margin:0 auto;
+  position:relative;
 }
