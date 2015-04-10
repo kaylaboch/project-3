@@ -106,9 +106,18 @@ p{
   margin: 0;
 }
 footer{
-  background-color: lightgrey;
+  background-color: #a32222;
+  text-align:center;
+  padding:1em;
+}
+a{
+  text-align: center;
+  color: white;
+
+}
+a:hover{
+  color:#a32222;
 }
 .btt{
-  text-align: center;
-  text-decoration: underline;
+  padding:1em;
 }
