@@ -53,3 +53,15 @@ h2{
 h3{
   color: #a32222;
 }
+.break{
+  width:50%;
+  float:left;
+
+}
+.break1{
+  width:50%;
+  float:right;
+}
+p{
+  text-align:center;
+}
