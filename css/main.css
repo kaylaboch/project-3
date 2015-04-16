@@ -31,12 +31,18 @@ img{
 
 }
 
+body{
+  margin:0;
+  padding:0;
+  background-color:white;
+}
 nav{
   font-weight: normal;
   color: white;
   background-color:#a32222;
   text-align:center;
   padding: 1em;
+  font-family: 'Quicksand', sans-serif;
 }
 nav ol{
   list-style-type: none;
@@ -56,11 +62,12 @@ nav a{
 h2{
   text-align: center;
   color: #a32222;
+  font-family: 'Quicksand', sans-serif;
 }
 .heart{
   position:absolute;
   bottom: -10%;
-  background-image: linear-gradient(to bottom, transparent,#a32222 );
+  background-image: linear-gradient(to bottom, transparent,black );
   padding:1em;
   width:100%;
   color: white;
@@ -69,6 +76,8 @@ h2{
 }
 h3{
   color: #a32222;
+  font-family: 'Quicksand', sans-serif;
+  padding-left: .5em;
 }
 .break{
   width:50%;
@@ -88,6 +97,14 @@ h3{
   float:right;
 
 }
+.blt{
+  clear:both;
+  padding-top:1em;
+}
+.egg{
+  padding-top: 1em;
+  clear:both;
+}
 .aboutd{
   background-color: lightgrey;
   overflow:hidden;
@@ -95,20 +112,20 @@ h3{
 }
 .top{
   background-color: lightgrey;
-  padding: 0;
   display:block;
   overflow:hidden;
   margin:0 auto;
   position:relative;
 }
 p{
-  padding:.5em;
-  margin: 0;
+  margin: 1em;
+  font-family: 'Quicksand', sans-serif;
 }
 footer{
   background-color: #a32222;
   text-align:center;
   padding:1em;
+  text-decoration: none;
 }
 a{
   text-align: center;
@@ -116,8 +133,13 @@ a{
 
 }
 a:hover{
-  color:#a32222;
+  color:lightgrey;
 }
 .btt{
   padding:1em;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+em{
+  color:#a32222;
 }
